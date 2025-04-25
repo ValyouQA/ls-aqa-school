@@ -6,7 +6,7 @@ public class OddTask {
     }
 
     public static void main(String[] args) {
-        int[] testNumbers = {1, 2, 3, 4, 5, 10, 15, 20};
+        int[] testNumbers = { 1, 2, 3, 4, 5, 10, 15, 20 };
         for (int number : testNumbers) {
             System.out.println("Число " + number + " нечетное? " + isOdd(number));
         }

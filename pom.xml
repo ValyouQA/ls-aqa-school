@@ -16,4 +16,23 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
+    <modules>
+        <module>ls-java-core</module>
+        <module>addressbook-web-tests</module>
+    </modules>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-params</artifactId>
+            <version>5.11.3</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.codeborne</groupId>
+            <artifactId>selenide</artifactId>
+            <version>7.6.1</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
 </project>
